@@ -1,63 +1,65 @@
 export const experiences = [
 	{
-		company: '',
-		time: '',
-		title: '',
-		location: '',
-		description: '',
+		company: 'University of Paris (Sorbonne)',
+		time: '1906 - 1934',
+		title: 'Professor of General Physics',
+		location: 'Paris, France',
+		description: 'Succeeded Pierre Curie in the chair of general physics; became the first woman appointed professor at the Sorbonne.',
 	},
-	// {
-	// 	company: 'Radium Institute (Institut du Radium)',
-	// 	time: '1914 - 1934',
-	// 	title: 'Director',
-	// 	location: 'Paris, France',
-	// 	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
-	// },
+	{
+		company: 'University of Paris (Sorbonne)',
+		time: '1900 - 1906',
+		title: 'Lecturer in Physics',
+		location: 'Paris, France',
+		description: 'Taught physics while continuing research on radioactive substances.',
+	},
 ];
 
 export const education = [
 	{
-		school: '',
-		time: '',
-		degree: '',
-		location: '',
-		description: '',
+		school: 'University of Paris (Sorbonne)',
+		time: '1891 - 1895',
+		degree: 'Licenciates in Physics and Mathematical Sciences',
+		location: 'Paris, France',
+		description: 'Studied physics and mathematics after moving from Warsaw to Paris.',
 	},
-	// {
-	// 	school: 'University of Paris',
-	// 	time: '1891 - 1895',
-	// 	degree: 'Master’s in Physics and Mathematics',
-	// 	location: 'Paris, France',
-	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-	// },
+	{
+		school: 'University of Paris (Sorbonne)',
+		time: '1903',
+		degree: 'Doctor of Science in Physics',
+		location: 'Paris, France',
+		description: 'Doctoral thesis: Recherches sur les substances radioactives.',
+	},
 ];
 
 export const skills = [
-	{
-		title: '',
-		description: '',
-	},
-	// {
-	// 	title: 'Experimental Techniques',
-	// 	description: 'Spectroscopy, Isolation of Radioactive Elements, Radiation Measurement',
-	// },
+	{ title: 'Experimental physics', description: 'Quantitative measurement of radiation and magnetic properties.' },
+	{ title: 'Radiochemistry', description: 'Chemical separation and characterization of radioactive substances.' },
 ];
 
 export const publications = [
 	{
-		title: '',
-		authors: '',
-		journal: '',
-		time: '',
-		link: '',
-		abstract: '',
+		title: 'Rayons émis par les composés de l’uranium et du thorium',
+		authors: 'Marie Curie',
+		journal: 'Comptes rendus de l’Académie des sciences, 126, 1101–1103',
+		time: '1898',
+		link: 'https://gallica.bnf.fr/ark:/12148/bpt6k3085f/f1105',
+		abstract: 'Reports measurements showing that uranium compounds emit rays and that thorium compounds also exhibit the phenomenon. The note was presented to the Academy on 12 April 1898.',
 	},
-	// {
-	// 	title: 'The Radiation of Uranium Compounds',
-	// 	authors: 'Marie Curie',
-	// 	journal: 'Comptes Rendus de l’Académie des Sciences',
-	// 	time: '1898',
-	// 	link: '#',
-	// 	abstract: 'Early research leading to the identification of uranium’s radioactive properties.',
-	// },
+	{
+		title: 'Sur une substance nouvelle radio-active, contenue dans la pechblende',
+		authors: 'Pierre Curie, Marie Curie',
+		journal: 'Comptes rendus de l’Académie des sciences, 127, 175–178',
+		time: '1898',
+		link: 'https://cds.cern.ch/record/475482/',
+		abstract: 'A report of evidence for a new, strongly radioactive substance in pitchblende, associated with the element later named polonium.',
+	},
+	{
+		title: 'Recherches sur les substances radioactives',
+		authors: 'Marie Curie',
+		journal: 'Doctoral thesis, University of Paris; Gauthier-Villars',
+		time: '1903',
+		link: 'https://fr.wikisource.org/wiki/Livre:Curie_-_Recherches_sur_les_substances_radioactives,_1903.djvu',
+		abstract: 'Marie Curie’s doctoral thesis surveys her investigations of radioactive substances, including methods of measurement and research on polonium and radium.',
+	},
 ];

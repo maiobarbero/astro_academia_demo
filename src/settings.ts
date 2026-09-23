@@ -7,12 +7,13 @@ interface Profile {
 }
 
 export const profile: Profile = {
-	fullName: 'Your Name',
-	title: '',
-	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
-	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+ fullName: 'Marie Curie',
+ title: 'Dr.',
+ institute: 'University of Paris (Sorbonne)',
+ author_name: 'Marie Curie',
+ research_areas: [
+  { title: 'Radioactivity', description: 'Experimental study of radiation emitted by uranium and other substances.', field: 'physics' },
+  { title: 'Radiochemistry', description: 'Identification and study of polonium, radium, and radioactive compounds.', field: 'chemistry' },
 	],
 }
 
@@ -20,7 +21,7 @@ export const profile: Profile = {
 export const social = {
 	email: '',
 	linkedin: '',
-	x: 'https://www.x.com/',
+  x: '',
 	bluesky: '',
 	github: '',
 	gitlab: '',
@@ -31,7 +32,7 @@ export const social = {
 }
 
 export const template = {
-	website_url: 'https://localhost:4321', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
+  website_url: 'https://example.com', // Demo URL; replace when deploying.
 	menu_left: false,
 	transitions: true,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
@@ -42,7 +43,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
-	default_description: 'Astro Academia is a template for academic websites.',
+  default_title: 'Marie Skłodowska Curie | Research Archive',
+  default_description: 'A sample academic website featuring Marie Skłodowska Curie’s research, publications, and biography.',
 	default_image: '/images/astro-academia.png',
 }
